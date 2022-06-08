@@ -11,6 +11,8 @@
 		E0DD771F2851431D0039FEE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DD771E2851431D0039FEE1 /* ContentView.swift */; };
 		E0DD77212851431F0039FEE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0DD77202851431F0039FEE1 /* Assets.xcassets */; };
 		E0DD77242851431F0039FEE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0DD77232851431F0039FEE1 /* Preview Assets.xcassets */; };
+		E0DD772B285143A00039FEE1 /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DD772A285143A00039FEE1 /* SquareView.swift */; };
+		E0DD772D285143F50039FEE1 /* TicTacToeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DD772C285143F50039FEE1 /* TicTacToeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		E0DD771E2851431D0039FEE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E0DD77202851431F0039FEE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0DD77232851431F0039FEE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E0DD772A285143A00039FEE1 /* SquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareView.swift; sourceTree = "<group>"; };
+		E0DD772C285143F50039FEE1 /* TicTacToeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				E0DD771E2851431D0039FEE1 /* ContentView.swift */,
 				E0DD77202851431F0039FEE1 /* Assets.xcassets */,
 				E0DD77222851431F0039FEE1 /* Preview Content */,
+				E0DD772A285143A00039FEE1 /* SquareView.swift */,
+				E0DD772C285143F50039FEE1 /* TicTacToeModel.swift */,
 			);
 			path = JuegoGato;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0DD772D285143F50039FEE1 /* TicTacToeModel.swift in Sources */,
+				E0DD772B285143A00039FEE1 /* SquareView.swift in Sources */,
 				E0DD771F2851431D0039FEE1 /* ContentView.swift in Sources */,
 				E0DD771D2851431D0039FEE1 /* JuegoGatoApp.swift in Sources */,
 			);
